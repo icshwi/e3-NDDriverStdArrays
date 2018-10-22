@@ -1,0 +1,4 @@
+[submodule "NDDriverStdArrays"]
+	path = NDDriverStdArrays
+	url = https://github.com/areaDetector/NDDriverStdArrays
+	ignore = all

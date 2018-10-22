@@ -1,0 +1,20 @@
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/jhlee/playground/e3-tools/e3TemplateGenerator
+User               : jhlee
+Log Time           : 2018Oct22-1354-38CEST
+e3 repo Hash       : e2ad555
+
+>>
+>> Your sources are located in https://github.com/areaDetector.
+>> git submodule will be used.
+>> 
+EPICS_MODULE_NAME  : NDDriverStdArrays
+E3_MODULE_SRC_PATH : NDDriverStdArrays
+EPICS_MODULE_URL   : https://github.com/areaDetector
+E3_TARGET_URL      : https://github.com/icshwi
+>> 
+e3 module name     : e3-NDDriverStdArrays
+e3 module url full : https://github.com/areaDetector/NDDriverStdArrays
+e3 target url full : https://github.com/icshwi/e3-NDDriverStdArrays
+>> 
