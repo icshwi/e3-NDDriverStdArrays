@@ -1,0 +1,13 @@
+diff --git NDDriverStdArraysApp/Db/NDDriverStdArrays.template NDDriverStdArraysApp/Db/NDDriverStdArrays.template
+index 9349a54..2e74bae 100644
+--- NDDriverStdArraysApp/Db/NDDriverStdArrays.template
++++ NDDriverStdArraysApp/Db/NDDriverStdArrays.template
+@@ -4,7 +4,7 @@
+ # Mark Rivers
+ # November 8, 2016
+ 
+-include ADBase.template
++include "ADBase.template"
+ 
+ record(mbbo, "$(P)$(R)CallbackMode")
+ {

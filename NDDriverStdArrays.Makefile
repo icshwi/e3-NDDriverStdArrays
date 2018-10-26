@@ -54,6 +54,8 @@ APPSRC:=$(APP)/src
 # USR_CPPFLAGS += -Wno-unused-function
 # USR_CPPFLAGS += -Wno-unused-but-set-variable
 
+# We have to convert all to db 
+TEMPLATES += $(wildcard $(APPDB)/*.db)
 
 HEADERS += $(APPSRC)/NDDriverStdArrays.h
 SOURCES += $(APPSRC)/NDDriverStdArrays.cpp

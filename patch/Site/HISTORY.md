@@ -1,7 +1,7 @@
-# what_ever_filename.p0.patch
+# 1.2.0-inflating-template.p0.patch
 
-Generic Description.....
+We need this in order to inflating "NDDDriverStdArrays.template" into a DB file
+
 
 * created by Jeong Han Lee, han.lee@esss.se
-* related URL or reference https://github.com/icshwi
-* Tuesday, February 13 13:24:57 CET 2018
+* Friday, October 26 17:19:48 CEST 2018
