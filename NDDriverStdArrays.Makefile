@@ -63,7 +63,7 @@ DBDS    += $(APPSRC)/NDDriverStdArraysSupport.dbd
 USR_DBFLAGS += -I . -I ..
 USR_DBFLAGS += -I $(EPICS_BASE)/db
 USR_DBFLAGS += -I $(APPDB)
-USR_DBFLAGS += -I $(E3_SITELIBS_PATH)/ADCore_$(ADCORE_DEP_VERSION)_db
+USR_DBFLAGS += -I $(E3_SITEMODS_PATH)/ADCore/$(ADCORE_DEP_VERSION)/db
 
 SUBS=$(wildcard $(APPDB)/*.substitutions)
 TMPS=$(wildcard $(APPDB)/*.template)
