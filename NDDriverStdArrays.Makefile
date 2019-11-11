@@ -18,8 +18,8 @@
 # 
 # Author  : Jeong Han Lee
 # email   : jeonghan.lee@gmail.com
-# Date    : Thursday, March 28 22:32:11 CET 2019
-# version : 0.0.2
+# Date    : Tuesday, November  5 08:56:38 CET 2019
+# version : 0.0.3
 #
 ## The following lines are mandatory, please don't change them.
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
@@ -42,22 +42,12 @@ APPDB:=$(APP)/Db
 APPSRC:=$(APP)/src
 
 
-# USR_INCLUDES += -I$(where_am_I)$(APPSRC)
-
-# USR_CFLAGS   += -Wno-unused-variable
-# USR_CFLAGS   += -Wno-unused-function
-# USR_CFLAGS   += -Wno-unused-but-set-variable
-# USR_CPPFLAGS += -Wno-unused-variable
-# USR_CPPFLAGS += -Wno-unused-function
-# USR_CPPFLAGS += -Wno-unused-but-set-variable
-
-# We have to convert all to db 
 TEMPLATES += $(wildcard $(APPDB)/*.db)
+TEMPLATES += $(wildcard $(APPDB)/*.req)
 
 HEADERS += $(APPSRC)/NDDriverStdArrays.h
 SOURCES += $(APPSRC)/NDDriverStdArrays.cpp
 DBDS    += $(APPSRC)/NDDriverStdArraysSupport.dbd
-
 
 
 USR_DBFLAGS += -I . -I ..
